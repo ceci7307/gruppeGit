@@ -7,7 +7,49 @@
     <link rel="stylesheet" href="style.css" />
     <title>gruppeGit</title>
   </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: blue;
+    }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px;
+      border: 2px solid black;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
   <body>
+
+      <h2>Der findes to</h2>
+
+    <div class="row">
+      <div class="column">
+        <h2>Valgmulgihed 1</h2>
+        <p>Brød</p>
+      </div>
+      <div class="column">
+        <h2>Valgmulighed 2</h2>
+        <p>Tærte</p>
+      </div>
+    </div>
+
+    
         <footer class="section bg-footer">
                 <div class="container">
                     <div class="row">
@@ -24,6 +66,7 @@
                         </div>
 
             </footer>
+  
     <script src="javascripy.js"></script>
   </body>
 </html>
